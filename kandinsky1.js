@@ -595,5 +595,6 @@ for ( ;c < length; c++) {
     	var cstroke = cattr[1];
     	var cstrokewidth = cattr[2];
     	var current = paper.path(cpath).attr({fill: cfill, stroke: cstroke, 'stroke-width': cstrokewidth});
+	console.log(String(current));
     	mapset.push(current);
     }
