@@ -31,3 +31,8 @@ License
 Use or remix this code as you wish, it is now public domain.
 (as of January, 2013)
 
+Help
+=============
+Please send any concerns or suggestions to Flarnie Marchan via flarnie.com/contact
+
+
