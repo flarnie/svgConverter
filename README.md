@@ -25,6 +25,15 @@ To prepare an SVG file in Inkscape for parsing:
 
 These steps will simplify the structure of the SVG file and allow the svgConverter to parse it easily.
 
+When run, svgConverter.py will convert all SVG files in the same directory to Raphael JS format, 
+saving the result in a new file without altering the original SVG.
+In three steps:
+1. Prepare an SVG file with Inkscape and put it in the same directory as svgConverter.py
+2. Open a terminal in that directory.
+3. With python installed, run svgConverter.py (type 'python svgConverter.py')
+
+It will create a js file using the original SVG filename followed by '.converted.js'.
+
 
 License
 =============
