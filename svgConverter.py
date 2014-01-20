@@ -36,7 +36,7 @@ def convert_file(filename):
     f.write('var paper = Raphael(\"paper\", width, height);\n\
 var text = "Width = \"+width+\"\\n Height = \"+height;\n\
 \nvar paths = [')
-    totalpaths = doc.findall("./{http://www.w3.org/2000/svg}path")
+    totalpaths = doc.findall(".//{http://www.w3.org/2000/svg}path")
     lastpath = totalpaths.pop()
     for result in totalpaths:
       newid = result.get('id').replace('-', '').replace('.','e').replace(' ','n').upper()
